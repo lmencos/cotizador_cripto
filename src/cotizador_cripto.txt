@@ -35,3 +35,6 @@ index html:
 API URL:
 https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=USD
 https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC&tsyms=USD,EUR
+
+instalacione:
+npm i @emotion/core @emotion/styled axios
