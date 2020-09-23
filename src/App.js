@@ -6,7 +6,7 @@ import Formulario from './components/Formulario';
 //-----------------------------------------------------
 const Contenedor = styled.div`
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 100px;
   @media (min-width: 100%) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -16,7 +16,7 @@ const Contenedor = styled.div`
 
 const Imagen = styled.img`
   max-width: 72%;
-  margin-top: 1rem;
+  margin-top: .5rem;
   margin: 0px 0% 0px 14%;
 `;
 
@@ -31,11 +31,11 @@ const Heading = styled.h3`
 
   &::after {
     content: '';
-    width: 90%;
+    width: 81%;
     height: 3px;
     background-color: #66A2FE;
     display: block;
-    margin: 0px 0% 0px 5%;
+    margin: 0px 0% 0px 10%;
   }
 `;
 //---------------------------------------------------------
